@@ -32,8 +32,8 @@
 // 	"_id": "63c275737fa75c2a32427fc7",
 // 	"__v": 0
 // }
-"email": "pp@p.com",
-"password": "$2b$10$z8Pf2EZn52452NGWFktteO/xTclqVrvo2y8DPRl46DlJByupUssVG",
-"role": "admin",
-"_id": "63c27b81ee5834d0b7146421",
-"__v": 0
+// "email": "pp@p.com",
+// "password": "$2b$10$z8Pf2EZn52452NGWFktteO/xTclqVrvo2y8DPRl46DlJByupUssVG",
+// "role": "admin",
+// "_id": "63c27b81ee5834d0b7146421",
+// "__v": 0
