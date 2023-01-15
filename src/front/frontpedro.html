@@ -8,35 +8,42 @@
     <link rel="stylesheet" href="frontpedrostyles.css">
     <script src="./frontpedro.js" defer></script>
 </head>
-<body>    
-
-    <div class="registerUser">
-        <h1>Login to add, delete, modify any data</h1>
-        <span>email:</span><input type="text" id="email">
-        <span>Password:</span><input type="text" id="possword">        
-        <div>            
-            <button id='btnregister' class="btnclass">Login</button>
-            <p>your role is:</p>
-            <p id="role">...</p>
-        </div>   
-    </div>
+<body>
     
+    <header class="titulo">
+        DISCOTECA AÑOS 80
+    </header>
    
     <div class="albums">
 
     </div>
 
-    <div class="addSongForm">
+    <div class="registerUser">
+        <h1>registered users can add new data. 'admin' role, also can modify and delete data.</h1>
+        <span>email:</span><input type="text" id="email" value="pp@p.com">
+        <span>Password:</span><input type="password" id="password" value='Pedro*1'>        
+        <div>            
+            <button id='btnregister' class="btnclass">Login</button>
+            <p></p>
+            <span>your role is:</span><span id="role">...</span>
+        </div>   
+    </div>
+
+
+    <div class="addSongForm" id="formAddSong">
+        <a name="tema1"></a>
         <h1>Add new song</h1>
         <span>Title:</span><input type="text" id="title">
         <span>Artist:</span><input type="text" id="artist">
         <span>Style:</span><input type="text" id="style">
         <span>Year:</span><input type="number" id="year">
         <div>            
-            <button id='btnnewsong' class="btnclass">Add song</button>
-            <p>new song has id:</p>
-            <p id="idsong">...</p>
-        </div>   
+            <button id='btnnewsong' class="btnclass">Create song</button>
+            <p></p>
+            <span>new song id:</span>
+            <span id="idsong">...</span>
+        </div>
+        
     </div>
     
     

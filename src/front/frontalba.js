@@ -69,11 +69,13 @@ const drawAlbums = (albums) => {
 
         let songYear=document.createElement("h4");
         songYear.textContent=song.Year;
+
         // añadimos a la canción el titulo, artista, estilo, año.
         song$$.appendChild(songTitle);
         song$$.appendChild(songArtist);
         song$$.appendChild(songStyle);
         song$$.appendChild(songYear);
+
         // añadimos a la lista la canción
         listSongs$$.appendChild(song$$);
       }
@@ -95,5 +97,9 @@ const init = async () => {
     drawAlbums(albums);  
     
   };
+
+  
   
   init();
+  
+ 
