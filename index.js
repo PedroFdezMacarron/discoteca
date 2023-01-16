@@ -13,12 +13,19 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 connect();
 
-
 app.use(express.json());
-app.use(cors());
+
+// app.use(cors(
+//     {['http://localhost:3000','http://localhost:3000','http:localhost/rutadelfront'],
+//     credentials:true
+// });
+// );
+
+app.use(cors()); 
+
 app.use(express.urlencoded({extended: true}));
 
-app.use('/songs', songsRouter)
-app.use('/albums', albumsRouter)
-app.use('/usuarios', usuariosRouter)
+app.use('/songs', songsRouter);
+app.use('/albums', albumsRouter);
+app.use('/usuarios', usuariosRouter);
 app.listen(PORT, () => console.log('listening on port', PORT));
